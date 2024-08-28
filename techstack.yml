@@ -1,0 +1,974 @@
+repo_name: Huntemall/onedev-dev
+report_id: 6f0b427eea568527dd16edcb2ee681dd
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T10:31:56+00:00'
+requested_by: robinshine
+provider: github
+branch: dev
+detected_tools_count: 80
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Huntemall/onedev-dev
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-plugin/server-plugin-buildspec-node/Dockerfile
+  detection_source: server-plugin/server-plugin-buildspec-node/Dockerfile
+  last_updated_by: Robin Shen
+  last_updated_on: 2019-09-17 00:24:18.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2020-04-08 12:50:56.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-product/docker/docker-compose.yaml
+  detection_source: server-product/docker/docker-compose.yaml
+  last_updated_by: StrajnarFilip
+  last_updated_on: 2023-04-26 18:11:38.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Andrea Del Bene
+  last_updated_on: 2020-01-27 16:03:19.000000000 Z
+- name: Hazelcast
+  description: Clustering and highly scalable data distribution platform for Java
+  website_url: http://hazelcast.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/2024/default_000f7e56d4be68acfa58a6ea8bd40e65a10e04ff.jpg
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-product/docker/docker-compose.yaml
+  detection_source: server-product/docker/docker-compose.yaml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-05-02 10:38:54.000000000 Z
+- name: Serverless AppSync
+  description: Easily and quickly deploy GraphQL APIs on AWS
+  website_url: https://github.com/serverless-components/aws-app-sync
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: GraphQL Tools
+  image_url: https://img.stackshare.io/service/11394/appsync.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-product/docker/docker-compose.yaml
+  detection_source: server-product/docker/docker-compose.yaml
+  last_updated_by: StrajnarFilip
+  last_updated_on: 2023-04-26 18:11:38.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev
+  detection_source: Repo Metadata
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/src/main/java/io/onedev/server/web/asset/codemirror/theme/eclipse.css
+  detection_source: server-core/src/main/java/io/onedev/server/web/asset/codemirror/theme/eclipse.css
+  last_updated_by: Robin Shen
+  last_updated_on: 2022-08-04 03:05:57.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev
+  detection_source: Repo Metadata
+- name: GlassFish
+  description: The Open Source Java EE Reference Implementation
+  website_url: https://glassfish.java.net
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2021-07-18 05:01:47.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-product/system/conf/logback.xml
+  detection_source: server-product/system/conf/logback.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2022-08-03 09:29:28.000000000 Z
+- name: ANTLR
+  description: Posts by Terence Parr, The ANTLR guy, about ANTLR, StringTemplate,
+    parsing, and general computer language cruft.
+  website_url: http://www.antlr.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8585/a159037c4838e54e93d9f630a295c396_normal.jpeg
+  detection_source_url: https://github.com/Huntemall/onedev-dev
+  detection_source: Repo Metadata
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-product/docker/docker-compose.yaml
+  detection_source: server-product/docker/docker-compose.yaml
+  last_updated_by: StrajnarFilip
+  last_updated_on: 2023-04-26 18:11:38.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev
+  detection_source: Repo Metadata
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.google.zxing:javase
+  description: Java SE-specific extensions to core ZXing library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.hazelcast:hazelcast
+  description: Core Hazelcast Module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.joestelmach:natty
+  description: Natural language date parser
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.nimbusds:oauth2-oidc-sdk
+  description: OAuth 2.0 SDK with OpenID Connection extensions for developing client
+    and server applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.sun.mail:javax.mail
+  description: "${project.name}"
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.thoughtworks.xstream:xstream
+  description: XStream is a serialization library from Java objects to XML and back
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.vladsch.flexmark:flexmark
+  description: Core of flexmark-java
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.vladsch.flexmark:flexmark-ext-anchorlink
+  description: Flexmark-java extension for generating anchor links for headings using
+    GitHub compatible algorithm
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.vladsch.flexmark:flexmark-ext-autolink
+  description: Flexmark-java extension for turning plain URLs and email addresses
+    into links
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.vladsch.flexmark:flexmark-ext-gfm-tasklist
+  description: Flexmark-java extension to convert bullet list items that start with
+    [ ] to a TaskListItem node
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.vladsch.flexmark:flexmark-ext-tables
+  description: Flexmark-java extension for tables using "|" pipes with optional column
+    spans and table caption
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-04-27 02:59:37.000000000 Z
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-product/pom.xml
+  detection_source: server-product/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2022-01-15 08:38:13.000000000 Z
+- name: commons-fileupload:commons-fileupload
+  description: The Apache Commons FileUpload component provides a simple yet flexible
+    means of adding support for multipart file upload functionality to servlets and
+    web applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2021-08-30 03:05:01.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-product/pom.xml
+  detection_source: server-product/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2022-01-15 08:38:13.000000000 Z
+- name: commons-validator:commons-validator
+  description: Apache Commons Validator provides the building blocks for both client
+    side validation and server side data validation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2022-09-25 00:20:40.000000000 Z
+- name: javax.xml.bind:jaxb-api
+  description: JAXB
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2022-07-05 07:20:28.000000000 Z
+- name: jaxen:jaxen
+  description: Jaxen is a universal XPath engine for Java
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2020-04-08 12:50:56.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2020-04-08 12:50:56.000000000 Z
+- name: net.i2p.crypto:eddsa
+  description: Implementation of EdDSA in Java
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: robin
+  last_updated_on: 2020-08-03 07:01:44.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-product/pom.xml
+  detection_source: server-product/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2022-09-12 08:53:14.000000000 Z
+- name: org.apache.commons:commons-compress
+  description: Apache Commons Compress software defines an API for working with compression
+    and archive formats
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.lucene:lucene-analyzers-common
+  description: Additional Analyzers
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.lucene:lucene-backward-codecs
+  description: Codecs for older versions of Lucene
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.lucene:lucene-core
+  description: Apache Lucene Java Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.lucene:lucene-queries
+  description: Lucene Queries Module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.lucene:lucene-queryparser
+  description: Lucene QueryParsers module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.shiro:shiro-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.shiro:shiro-web
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.sshd:sshd-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.tika:tika-core
+  description: This is the core Apache Tika™ toolkit library from which all other
+    modules inherit functionality
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.wicket:wicket-core
+  description: Wicket is a Java web application framework that takes simplicity, separation
+    of concerns and ease of development to a whole new level
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.wicket:wicket-devutils
+  description: Wicket development utilities provide helpful features that are typically
+    used during development only
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.apache.wicket:wicket-extensions
+  description: Wicket Extensions is a rich component library for the Wicket framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-07-29 07:44:03.000000000 Z
+- name: org.apache.wicket:wicket-util
+  description: Wicket is a Java-based open source component web application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.bouncycastle:bcprov-jdk15on
+  description: The Bouncy Castle Crypto package is a Java implementation of cryptographic
+    algorithms
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.codehaus.groovy:groovy-templates
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.dom4j:dom4j
+  description: Flexible XML framework for Java
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.eclipse.jetty.websocket:websocket-server
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.eclipse.jetty:jetty-server
+  description: The core jetty server artifact
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.eclipse.jetty:jetty-servlet
+  description: Jetty Servlet Container
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.eclipse.jetty:jetty-servlets
+  description: Utility Servlets from Jetty
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.glassfish.jersey.containers:jersey-container-servlet
+  description: Jersey core Servlet 3.x implementation
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.glassfish.jersey.ext:jersey-bean-validation
+  description: Jersey extension module providing support for Bean Validation
+  license: NetCDF
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.glassfish:javax.el
+  description: Obsolete EL3 fork
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.hibernate.validator:hibernate-validator
+  description: Hibernate's Bean Validation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.hibernate:hibernate-core
+  description: Hibernate's core ORM functionality
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.hibernate:hibernate-entitymanager
+  description: ''
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.hibernate:hibernate-hikaricp
+  description: Integration for HikariCP into Hibernate O/RM
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.hibernate:hibernate-jcache
+  description: Integration for javax.cache into Hibernate as a second-level caching
+    service
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.hsqldb:hsqldb
+  description: HSQLDB - Lightweight 100% Java SQL Database Engine
+  license: Zed,TMate
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.objenesis:objenesis
+  description: A library for instantiating Java objects
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.ocpsoft.prettytime:prettytime
+  description: Social Style Date and Time Formatting for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.quartz-scheduler:quartz
+  description: Enterprise Job Scheduler
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.unbescape:unbescape
+  description: Advanced yet easy-to-use escape/unescape library for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
+- name: org.yaml:snakeyaml
+  description: YAML 1.1 parser and emitter for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Huntemall/onedev-dev/blob/dev/server-core/pom.xml
+  detection_source: server-core/pom.xml
+  last_updated_by: Robin Shen
+  last_updated_on: 2023-06-07 08:53:12.000000000 Z
