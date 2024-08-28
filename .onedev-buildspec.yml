@@ -374,6 +374,42 @@ jobs:
   maxRetries: 3
   retryDelay: 30
   timeout: 3600
+- name: Test
+  steps:
+  - !CheckoutStep
+    name: checkout
+    cloneCredential: !HttpCredential
+      accessTokenSecret: onedev-token
+    withLfs: false
+    withSubmodules: true
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  - !CommandStep
+    name: publish GH release
+    runInContainer: true
+    image: '@property:buildEnvironment@'
+    interpreter: !DefaultInterpreter
+      commands: |
+        set -e
+        set -o pipefail
+
+        buildVersion=11.0.8
+
+        projectDir=`pwd`
+
+        echo "Creating release tag..."
+
+        git config --global user.name "Robin Shen"
+        git config --global user.email "robin@@onedev.io"
+        git config --global --add safe.directory /onedev-build/workspace
+
+        git tag v$buildVersion -m "Release tag"
+        git push -f origin v$buildVersion:v$buildVersion
+    useTTY: true
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  retryCondition: never
+  maxRetries: 3
+  retryDelay: 30
+  timeout: 3600
 stepTemplates:
 - name: scan vulnerabilities
   steps:
